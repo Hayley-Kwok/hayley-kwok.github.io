@@ -16,6 +16,17 @@ p {
 .justify{
   text-align: justify;
 }
+.whole-screen {
+  height: 100vh;
+  position: relative;
+}
+.container-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
 .container {
   padding: 80px 120px;
 }
