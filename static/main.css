@@ -142,7 +142,7 @@ a:link,a:visited,a:active{
   animation-name: slide;
   -webkit-animation-name: slide;
   animation-duration: 1.5s;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   visibility: visible;
 }
 @keyframes slide {
