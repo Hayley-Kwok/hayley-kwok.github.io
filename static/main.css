@@ -27,7 +27,6 @@ p {
 .bg-1 h3, .bg-1 h2 {
   color: #fff;
 }
-
 #profile h2, #contact h2 {margin-bottom: 10px!important;}
 #experience h3 {
   color: #33F8F2;
@@ -81,12 +80,25 @@ h5 {
 .icon-text{
   font-size: 20px;
 }
-a:link, a:visited, a:active{
-  color: white;
+a:link,a:visited,a:active{
   text-decoration: none;
 }
-a:hover{
+.footer-icon a:link,.footer-icon a:visited,.footer-icon a:active{
+  color: white;
+}
+.footer-icon a:hover{
   color: cornflowerblue;
+}
+.btn-default a{color:white;}
+.btn-default,.btn-default:link,.btn-default:visited,.btn-default:active {
+    color: white;
+    background-color:#2d2d30;
+    border-color: white;
+}
+.btn-default:hover{
+    color: white!important;
+    background-color:cornflowerblue;
+    border-color: cornflowerblue;
 }
 
 .navbar {
@@ -111,7 +123,34 @@ a:hover{
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
-
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
 footer {
   background-color: #2d2d30;
   color: #f5f5f5;
