@@ -1,3 +1,8 @@
+@media screen and (max-width: 540px) {
+  .container{
+    padding:40px 40px!important;
+  }
+}
 body {
   font-family: Montserrat, sans-serif;
   color: #777;
