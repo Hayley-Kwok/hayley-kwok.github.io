@@ -117,8 +117,14 @@ h5 {
 .icon-text{
   font-size: 20px;
 }
+#experience a{
+  color: inherit;
+  z-index: 100;
+  text-decoration: underline;
+}
 a:link,a:visited,a:active{
   text-decoration: none;
+  color: inherit;
 }
 
 .btn-default a{color:white;}
@@ -186,16 +192,18 @@ a:link,a:visited,a:active{
   left:35px;
   z-index: -2;
 }
+/*.timeline-content */
+
+/*
 .timeline-content a{
-  color: inherit;
-  z-index: 100;
+  text-decoration: none;
   border-bottom: 2.3px solid currentColor;
   display: inline-block;
   line-height: 0.9;
-/*  text-decoration: underline;*/
-
 }
-.timeline-content a:hover{color:#337ab7;;}
+*/
+/*.timeline-content */
+#experience a:hover{color:#337ab7;;}
 /*border on the timeline*/
 .timeline-content:after{
   content:"";
@@ -250,18 +258,19 @@ footer {
   color: #f5f5f5;
   padding: 32px;
 }
-footer a {
+#contact a {
   color: #f5f5f5;
+  text-decoration: none!important;
 }
-footer a:hover {
+#contact a:hover {
   color: #777;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 .footer-icon a:link,.footer-icon a:visited,.footer-icon a:active{
   color: white;
 }
 .footer-icon a:hover{
-  color: cornflowerblue;
+  color: cornflowerblue!important;
 }
 
 /*slide animation*/
