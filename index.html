@@ -12,7 +12,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="30">
+<body id="hi" data-spy="scroll" data-target=".navbar" data-offset="30">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -20,7 +20,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#hi">HOME</a></li>
         <li><a href="#profile">PROFILE</a></li>
         <li><a href="#experience">EXPERIENCE</a></li>
         <li><a href="#skills">SKILLS</a></li>
@@ -31,11 +31,11 @@
 </nav>
 <!-- Hello -->
 
-<div id="mypage" class="bg-1 whole-screen">
+<div id="hi" class="bg-1 whole-screen">
   <div class="container text-center container-center">
     <div class="hi slide">Hi I'm Hayley Wing Yin Kwok </div>
-    <hr>
-    <h3 class="justify slide">Second Year Computer Science Student from the University of Sheffield </h3>
+    <!-- <hr>
+    <h3 class="justify slide">Second Year Computer Science Student from the University of Sheffield </h3> -->
   </div>
 </div>
 <!-- Profile -->
@@ -70,15 +70,18 @@
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1008&org=SHEFFIELD&start=29-Sep-2014&loc=SHEFFIELD&cal=AUT%20SEM&year=2018" target="_blank">Web and Internet Technology</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1001&org=SHEFFIELD&start=29-Sep-2014&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Introduction to Software Engineering</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1006&org=SHEFFIELD&start=28-Sep-2009&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Devices and Networks</a></li>
+            <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1009&org=SHEFFIELD&start=09-Feb-2015&loc=SHEFFIELD&cal=SPR%20SEM&year=2018" target="_blank">Introduction to Algorithms and Data Structures</a></li>
           </ul>
         </div>
         <div class="col-lg-6 col-xs-12">
           <ul>
-            <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1009&org=SHEFFIELD&start=09-Feb-2015&loc=SHEFFIELD&cal=SPR%20SEM&year=2018" target="_blank">Introduction to Algorithms and Data Structures</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2004&org=SHEFFIELD&start=27-Sep-2010&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">Data Driven Computing</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2008&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">System Design and Security</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2108&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">Functional Programming</a></li>
             <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2109&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=ACAD%20YR&year=2019" target="_blank">Automata,Computation and Complexity</a></li>
+            <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2107&org=SHEFFIELD&start=04-Feb-2019&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Logic in Computer Science</a></li>
+            <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2009&org=SHEFFIELD&start=10-Feb-2019&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Robotics</a></li>
+            <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3420&org=SHEFFIELD&start=27-Sep-2004&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Software Hut</a></li>
           </ul>
         </div>
       </div>
@@ -286,12 +289,12 @@
     </button>
   </div>
 </div>
-<footer class="text-center"> <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP"> <span class="glyphicon glyphicon-chevron-up"></span> </a> </footer>
+<footer class="text-center"> <a class="up-arrow" href="#hi" data-toggle="tooltip" title="TO TOP"> <span class="glyphicon glyphicon-chevron-up"></span> </a> </footer>
 <script>
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    $(".navbar a, footer a[href='#hi']").on('click', function(event) {
 
       if (this.hash !== "") {
 
