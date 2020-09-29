@@ -94,6 +94,7 @@ h5 {
 .colour-purple2{color: #CA5FB8;}
 .colour-greenh3{color: #61BFAD;}
 .colour-blue3{color:#755FCA;}
+.colour-pink{color: #ff9999}
 .colour-skills{color: #F75E59;}
 .colour-profile{color: #F29050 ;}
 #skills h3 {
@@ -250,7 +251,7 @@ a:link,a:visited,a:active{
   .timeline-section:nth-child(even) .timeline-content:before{left:35px;right:auto;transform:rotateY(0deg);}
   .timeline-section:nth-child(even) .timeline-content:after{left:2px;right:auto;}
 }
-@media screen and (max-width: 1000px) {#experience .container{padding: 0 30px;}}
+@media screen and (max-width: 1000px) {#experience .container{padding: 80px 30px;}}
 /*#experience .container{padding: 0 20px;}*/
 
 footer {
