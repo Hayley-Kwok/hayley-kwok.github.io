@@ -58,6 +58,11 @@ p {
   font-size: 64px !important;
   font-family: "Montserrat", sans-serif;
 }
+
+#key-points
+{
+  font-size: 19px;
+}
 .bg-1 {
   background: #2d2d30;
   color: #fff;
@@ -95,7 +100,7 @@ h5 {
 .colour-greenh3{color: #61BFAD;}
 .colour-blue3{color:#755FCA;}
 .colour-pink{color: #ff9999}
-.colour-skills{color: #F75E59;}
+.colour-red{color: #F75E59;}
 .colour-profile{color: #F29050 ;}
 #skills h3 {
   margin:30px 0px 5px 0px!important;
@@ -156,6 +161,7 @@ a:link,a:visited,a:active{
   display:inline-block;
   margin-bottom:50px;
   position:relative;
+  width: 100%;
 }
 /*the circle*/
 .timeline-section:before{
@@ -193,16 +199,7 @@ a:link,a:visited,a:active{
   left:35px;
   z-index: -2;
 }
-/*.timeline-content */
 
-/*
-.timeline-content a{
-  text-decoration: none;
-  border-bottom: 2.3px solid currentColor;
-  display: inline-block;
-  line-height: 0.9;
-}
-*/
 /*.timeline-content */
 #experience a:hover{color:#337ab7;;}
 /*border on the timeline*/
@@ -215,20 +212,7 @@ a:link,a:visited,a:active{
   top:13px;
   left:2px;
 }
-/*
-.timeline-content ul{
-    min-width:auto;
-  }
-*/
-/*
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-  .short-ul ul{
-    min-width: 1000px;
-  }
-}
-*/
 
-/*TODO: timeline responsive for mobile and add links*/
 .timeline-section:nth-child(even) .timeline-content{
   float: left;
   padding:0 50px 0 10px;
@@ -252,7 +236,6 @@ a:link,a:visited,a:active{
   .timeline-section:nth-child(even) .timeline-content:after{left:2px;right:auto;}
 }
 @media screen and (max-width: 1000px) {#experience .container{padding: 80px 30px;}}
-/*#experience .container{padding: 0 20px;}*/
 
 footer {
   background-color: #2d2d30;
