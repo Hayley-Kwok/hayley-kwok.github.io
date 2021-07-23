@@ -1,3 +1,3 @@
 # Hi
 This repository is for my personal website. <br>
-Available here: https://hayleykwok1.github.io/
+Available here: https://hayley-kwok.github.io/
