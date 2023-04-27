@@ -1,285 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Hayley Kwok - Software Engineer</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://kit.fontawesome.com/069d324f7e.js" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-<link href="./static/main.css" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <title>Hayley Kwok - Software Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/069d324f7e.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="./static/main.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
+
 <body id="hi" data-spy="scroll" data-target=".navbar" data-offset="30">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#hi">HOME</a></li>
-        <li><a href="#profile">PROFILE</a></li>
-        <li><a href="#experience">EXPERIENCE</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div id="hi" class="bg-1 whole-screen">
-  <div class="container text-center container-center">
-    <span id="typed" class="hi"></span>
-  </div>
-</div>
-<!-- Profile -->
-<div id="profile" class="container">
-  <h2 class="text-center colour-profile slideanim">ABOUT ME</h2>
-  <div class="container-fluid">
-    <p class="slideanim justify">Hi there! I am Hayley, a passionate full-stack software engineer. Throughout my time in university and industry, I have stumbled into different technologies like C# (.NET), Java, Python, JavaScript (TypeScript) and Haskell. I used them to build some really cool stuff. For instance, I built a code generation/replacement tool in C# to change the code in ~310 files. The biggest change made by the tool is adding around 60k lines to a single file. </p>
-    <p class="slideanim justify">Feel free to message me to talk about any interesting things or opportunities :) My contact is at the bottom of the page.</p>
-  </div>
-</div>
-<!-- EXPERIENCE -->
-<div id="experience" class="bg-1">
-  <div class="container">
-    <h2 class="text-center slideanim">EXPERIENCE</h2>
-    <hr class="slideanim">
-    <h3 class="slideanim">Educations</h3>
-    <div class="row slideanim">
-      <div class="col-md-4">
-        <p><b>University of Sheffield</b></p>
-        <p>Sep 2018 - Jun 2022</p>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       </div>
-      <div class="col-md-8">
-        <p><b><a href="https://www.sheffield.ac.uk/prospectus/courseDetails.do?id=G4032021" target="_blank">Bachelor of Science in Computer Science with a Year in Industry</a></b></p>
-        <p>First-Class Honours</p>
-        Relevant Modules: <br>
-        <div class="row">
-          <div class="col-lg-6 col-xs-12">
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#hi">HOME</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#skills">SKILLS & PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="hi" class="bg-1 whole-screen">
+    <div class="container text-center container-center">
+      <span id="typed" class="hi"></span>
+    </div>
+  </div>
+  <!-- Profile -->
+  <div id="profile" class="container">
+    <h2 class="text-center colour-profile slideanim">ABOUT ME</h2>
+    <div class="container-fluid">
+      <p class="slideanim justify">Hi there! I am Hayley, a passionate and adaptable full-stack software engineer.
+        Throughout my time in university and industry, I have stumbled into different technologies like C# (.NET), Java,
+        Python, JavaScript (TypeScript) and Haskell. I used them to build some really cool stuff. For instance, I built
+        a code generation/replacement tool in C# (.NET) to change the code in ~310 files. The biggest change made by the
+        tool is adding around 60k lines to a single file. </p>
+      <p class="slideanim justify">Professionally, I have worked on the full stack development of both desktop and web
+        applications. I would say I am proficient in .NET and familiar with Spring Boot, Angular and React. Moving
+        forward, I would love to work with .NET again, but I am also open to other technologies. A fun fact about me:
+        for my past few roles, I actually learned the required technologies on the job, and after a while, no one
+        remembers that I came in without knowing those technologies. </p>
+      <p class="slideanim justify">Feel free to message me to talk about any interesting things or opportunities :) My
+        contact information is at the bottom of the page.</p>
+    </div>
+  </div>
+  <!-- EXPERIENCE -->
+  <div id="experience" class="bg-1">
+    <div class="container">
+      <h2 class="text-center slideanim">EXPERIENCE</h2>
+      <hr class="slideanim">
+      <h3 class="slideanim">Working Experience</h3>
+
+      <div class="timeline-frame slideanim">
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Graduate Software Engineer, American Express <br>
+              ( Sep 2022 – Present )</h5>
             <ul>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1002&org=SHEFFIELD&start=28-Sep-2009&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Foundations of Computer Science</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1005&org=SHEFFIELD&start=28-Sep-2009&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Machines and Intelligence</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1003&org=SHEFFIELD&start=28-Sep-2009&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Java Programming</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1008&org=SHEFFIELD&start=29-Sep-2014&loc=SHEFFIELD&cal=AUT%20SEM&year=2018" target="_blank">Web and Internet Technology</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1001&org=SHEFFIELD&start=29-Sep-2014&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Introduction to Software Engineering</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1006&org=SHEFFIELD&start=28-Sep-2009&loc=SHEFFIELD&cal=ACAD%20YR&year=2018" target="_blank">Devices and Networks</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM1009&org=SHEFFIELD&start=09-Feb-2015&loc=SHEFFIELD&cal=SPR%20SEM&year=2018" target="_blank">Introduction to Algorithms and Data Structures</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2004&org=SHEFFIELD&start=27-Sep-2010&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">Data Driven Computing</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2008&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">System Design and Security</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2108&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=AUT%20SEM&year=2019" target="_blank">Functional Programming</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2109&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=ACAD%20YR&year=2019" target="_blank">Automata,Computation and Complexity</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 col-xs-12">
-            <ul>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2107&org=SHEFFIELD&start=04-Feb-2019&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Logic in Computer Science</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2009&org=SHEFFIELD&start=10-Feb-2019&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Robotics</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3420&org=SHEFFIELD&start=27-Sep-2004&loc=SHEFFIELD&cal=SPR%20SEM&year=2019" target="_blank">Software Hut</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=MGT388&org=SHEFFIELD&start=26-Sep-2011&loc=SHEFFIELD&cal=AUT%20SEM&year=2021" target="_blank">Finance and Law for Engineers</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3610&org=SHEFFIELD&start=25-Sep-2017&loc=SHEFFIELD&cal=ACAD%20YR&year=2021" target="_blank">Dissertation Project</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3502&org=SHEFFIELD&start=26-Sep-2011&loc=SHEFFIELD&cal=AUT%20SEM&year=2021" target="_blank">Speech Processing</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3524&org=SHEFFIELD&start=30-Sep-2019&loc=SHEFFIELD&cal=AUT%20SEM&year=2021" target="_blank">Bioinspired Computing</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3527&org=SHEFFIELD&start=30-Sep-2019&loc=SHEFFIELD&cal=AUT%20SEM&year=2021" target="_blank">Cyber Security Team Project</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3501&org=SHEFFIELD&start=06-Feb-2012&loc=SHEFFIELD&cal=SPR%20SEM&year=2021" target="_blank">Computer Security and Forensics</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3523&org=SHEFFIELD&start=10-Feb-2020&loc=SHEFFIELD&cal=SPR%20SEM&year=2021" target="_blank">Software Reengineering</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3529&org=SHEFFIELD&start=08-Feb-2021&loc=SHEFFIELD&cal=SPR%20SEM&year=2021" target="_blank">Software Testing and Analysis</a></li>
-              <li><a href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=MEC328&org=SHEFFIELD&start=09-Feb-2020&loc=SHEFFIELD&cal=SPR%20SEM&year=2021" target="_blank">Managing Engineering Projects and Teams</a></li>
+              <li>Worked in a full stack team for the development of a B2B cross currency and cross
+                border payment system</li>
+              <li>Worked with technologies like Spring Boot, Kotlin, React and Jenkins</li>
             </ul>
           </div>
         </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Software Engineering Intern, Panaseer <br>
+              ( Jun 2021 – Sep 2021 )</h5>
+            <ul>
+              <li>Worked in agile and pair programmed frequently</li>
+              <li>Built data connector to ingest data for the data platform using Apache NiFi</li>
+              <li>Added new features to the web client and API using Angular and Java Spring Boot</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Junior Software Engineer, Certara UK Limited <br>
+              ( Jun 2020 – Jun 2021 )</h5>
+            <ul>
+              <li>Involved in full software development life cycle including design, validation, testing, building CI/CD
+                pipelines and full customer support</li>
+              <li>Worked on projects to improve the main product’s performance</li>
+              <ul>
+                <li>Used lazy loading to reduce the software’s start-up time by 10%</li>
+                <li>Built code generation tool to replace the Fody package which changed 310+ files</li>
+              </ul>
+              <li>Gained experience in WPF applications development using the MVVM pattern, C#, .NET 5, Visual Studio
+                and Azure DevOps Server</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Web Developer, NotiFacts <br>
+              ( Aug 2020 – Jan 2021 )</h5>
+            <ul>
+              <li>Involve in the front-end development of the website using Bootstrap and HTML5 and back-end development
+                using Python Flask</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="slideanim">
+      <h3 class="slideanim">Educations</h3>
+      <div class="row slideanim">
+        <div class="col-md-4">
+          <p><b>University of Sheffield</b></p>
+          <p>Sep 2018 - Jun 2022</p>
+        </div>
+        <div class="col-md-8">
+          <p><b><a href="https://www.sheffield.ac.uk/prospectus/courseDetails.do?id=G4032021" target="_blank">Bachelor
+                of Science in Computer Science with a Year in Industry</a></b></p>
+          <p>First-Class Honours</p>
+          Key Modules: <br>
+          <div class="row">
+            <div class="col-lg-9 col-xs-12">
+              <ul>
+                <li><a
+                    href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM2108&org=SHEFFIELD&start=24-Sep-2018&loc=SHEFFIELD&cal=AUT%20SEM&year=2019"
+                    target="_blank">Functional Programming</a></li>
+                <li><a
+                    href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3527&org=SHEFFIELD&start=30-Sep-2019&loc=SHEFFIELD&cal=AUT%20SEM&year=2021"
+                    target="_blank">Cyber Security Team Project</a></li>
+                <li><a
+                    href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3501&org=SHEFFIELD&start=06-Feb-2012&loc=SHEFFIELD&cal=SPR%20SEM&year=2021"
+                    target="_blank">Computer Security and Forensics</a></li>
+                <li><a
+                    href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3523&org=SHEFFIELD&start=10-Feb-2020&loc=SHEFFIELD&cal=SPR%20SEM&year=2021"
+                    target="_blank">Software Reengineering</a></li>
+                <li><a
+                    href="https://www.sheffield.ac.uk/programmeregulationsfinder/unit?code=COM3529&org=SHEFFIELD&start=08-Feb-2021&loc=SHEFFIELD&cal=SPR%20SEM&year=2021"
+                    target="_blank">Software Testing and Analysis</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row slideanim">
+        <div class="col-md-4">
+          <p><b>The Hong Kong Diploma of Secondary Education</b></p>
+          <p>June 2018</p>
+        </div>
+        <div class="col-md-8">
+          <p><b>7 subjects graded 5** - 4</b></p>
+          <p> with 5** (top 0.7%) in Information and Communication Technology and 5* (top 5.8%) in Mathematics
+            (Compulsory Part)</p>
+          <p>UCAS Tariff Points: 146</p>
+        </div>
+      </div>
+
+      <hr class="slideanim">
+      <h3 class="slideanim">Computer Science related Activities </h3>
+      <div class="timeline-frame slideanim">
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Lab Demonstrator<br>
+              ( Sep 2021 - May 2022 )</h5>
+            <ul>
+              <li>Lab Demonstrator for two different level 1 modules - Java Programming & Introduction to Programming
+                and Problem Solving </li>
+              <li>Help to address students' questions with different coding exercises in Python and Java during lab
+                sessions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Software Engineering Virtual Internship, JPMorgan Chase & Co <br>
+              ( Apr 2020 )</h5>
+            <ul>
+              <li>Had the opportunity to explore life as a software engineer in Fintech</li>
+              <li>Worked on financial analysis and data visualisation tasks using React, Typescript and Python</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Second Place Winner, <a href="http://hackmed.uk/" target="_blank">HackMed</a> ( Mar 2020 )</h5>
+            <ul>
+              <li>Worked in a team of four to develop a website to help people suffering speech impairment using the
+                Emotiv wearable EEG and the pepper robot </li>
+              <li>Made use of React, Bootstrap, Flask and Jinja2 to build the website</li>
+              <li><a href="https://devpost.com/software/verbal-seasoning"
+                  target="_blank"><code>Project Devpost Link</code></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5><a href="https://new.siemens.com/uk/en/company/fairs-events/mindsphere-live.html" target="_blank">Sir
+                William Siemens Challenge</a> ( Nov 2019 )</h5>
+            <ul>
+              <li>Built a lift system with a physical model and a virtual model on website to display the provided data
+                in 48 hours with six students from different engineering disciplines</li>
+              <li>Responsible for data manipulation that developed the attention to details</li>
+              <li><a href="https://github.com/jhuddlestone1/swsc-sirius"
+                  target="_blank"><code>Project GitHub Link</code></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Student Mentor for a Python Course,<br>
+              Code Creators Sheffield ( Oct 2019 - Jun 2020 )</h5>
+            <ul class="short-url">
+              <li>Helped to address students’ questions in Python</li>
+              <li>Developed skills in explaining technical concepts and delivering educational materials to laypeople in
+                a simple and logical manner</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-section slideanim">
+          <div class="timeline-content">
+            <h5>Python for Web Development Course, Code First: Girls ( Feb 2019 - Apr 2019 )</h5>
+            <ul>
+              <li>An 8-weeks long course about backend development using Python and Flask </li>
+              <li>Experience in using GitHub and Heroku </li>
+              <li>Delivered multiple projects like a simple translator in a web app form through Python, Flask, Jinja2,
+                Web APIs and HTML etc</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="slideanim">
+
+      <h3 class="slideanim">Leadership Roles at University</h3>
+
+      <div class="slideanim">
+        <h5><a
+            href="https://ieasheffield.wordpress.com/2020/02/09/meet-our-international-engineering-ambassador-wing-yin-kwok/"
+            target="_blank">International Engineering Ambassador</a> ( Nov 2019 - Jun 2022 )</h5>
+        <ul>
+          <li>Responsible for representing the Faculty of Engineering to promote the University to prospective students
+            and answering their enquiries in a professional manner</li>
+          <li>Developed skills in communicating with people from different background</li>
+        </ul>
+
+        <h5>Treasurer, Sheffield Women in Computer Science Society ( Apr 2019 - Apr 2020 )</h5>
+        <ul>
+          <li>Work with companies in the IT industry like Arm Ltd to promote the role of women within the industry</li>
+          <li>Took up the responsibility to manage and monitor the financial account of the society</li>
+        </ul>
+
+        <h5>Academic Representative ( Sep 2019 - Jun 2020 )</h5>
+        <ul>
+          <li>Worked alongside the University and Students’ Union to improve students’ education</li>
+          <li>Developed skills in collecting and presenting information better, communicating with people from different
+            backgrounds</li>
+        </ul>
+
+        <h5>Student Mentor for first-year students ( Sep 2019 - Jun 2020 )</h5>
+        <ul>
+          <li>Provided mentees with advice and support</li>
+          <li>Developed skills in interacting with newcomers in order to comfort and help them to get adapted to the new
+            environment</li>
+        </ul>
+      </div>
+    </div> <!--container-->
+  </div>
+  <!-- Skills -->
+  <div id="skills" class="container">
+    <h2 class="text-center colour-red slideanim">SKILLS</h2>
+    <hr class="slideanim">
+    <h3 class="colour-greenh3 slideanim">Technical Skills </h3>
+    <div class="row slideanim">
+      <div class="col-md-6">
+        <h5 class="colour-purple">Website Development (Front End)</h5>
+        <span class="ability-title">HTML5 & CSS</span>
+        <span class="ability-title">Boostrap</span>
+
+        <span class="ability-title">Angular</span>
+        <span class="ability-title">React</span>
+        <h5 class="colour-blue">Website Development (Back End)</h5>
+        <span class="ability-title">.NET Blazor (C#)</span>
+        <span class="ability-title">Spring Boot (Kotlin & Java)</span>
+        <span class="ability-title">Flask & Jinja2 (Python)</span>
+        <span class="ability-title">Ruby on Rails</span>
+        <h5 class="colour-green2">Desktop Application Development</h5>
+        <span class="ability-title">.NET WPF</span>
+        <span class="ability-title">Electron</span>
+      </div>
+
+      <div class="col-md-6">
+        <h5 class="colour-green">Programming Languages</h5>
+        <span class="ability-title">C#</span>
+        <span class="ability-title">Java</span>
+        <span class="ability-title">Python</span>
+        <span class="ability-title">Kotlin</span>
+        <span class="ability-title">JavaScript</span>
+        <span class="ability-title">TypeScript</span>
+        <span class="ability-title">Haskell</span>
+        <span class="ability-title">Ruby</span>
+
+        <h5 class="colour-pink">Technical Knowledge</h5>
+        <span class="ability-title">Software Lifecycle Knowledge</span>
+        <span class="ability-title">OOP Paradigms</span>
+        <span class="ability-title">Agile Methodologies</span>
+        <span class="ability-title">Scrum Methodologies</span>
+        <span class="ability-title">Algorithm Design</span>
+        <span class="ability-title">Data Structure</span>
+        <span class="ability-title">UML Diagrams</span>
       </div>
     </div>
+    <hr class="slideanim">
+    <h3 class="colour-blue3 slideanim">Languages</h3>
     <div class="row slideanim">
       <div class="col-md-4">
-        <p><b>The Hong Kong Diploma of Secondary Education</b></p>
-        <p>June 2018</p>
+        <p>Cantonese (Native)</p>
       </div>
-      <div class="col-md-8">
-        <p><b>7 subjects graded 5** - 4</b></p>
-        <p> with 5** (top 0.7%) in Information and Communication Technology and 5* (top 5.8%) in Mathematics (Compulsory Part)</p>
-        <p>UCAS Tariff Points: 146</p>
+      <div class="col-md-4">
+        <p>English (Proficient)</p>
+      </div>
+      <div class="col-md-4">
+        <p>Mandarin (Proficient)</p>
       </div>
     </div>
+
+    <br/>
+    <br/>
+    <h2 class="text-center colour-purple slideanim">PROJECTS</h2>
     <hr class="slideanim">
-    <h3 class="slideanim">Working Experience</h3>
-    
-    <div class="timeline-frame slideanim">
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Graduate Software Engineer, American Express <br>
-            ( Sep 2022 – Present )</h5>
-          <ul>
-            <li>Worked in a full stack team for the development of a B2B cross currency and cross
-              border payment system</li>
-            <li>Worked with technologies like Spring Boot, Kotlin, React and Jenkins</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Software Engineering Intern, Panaseer <br>
-            ( Jun 2021 – Sep 2021 )</h5>
-          <ul>
-            <li>Worked in agile and pair programmed frequently</li>
-            <li>Built data connector to ingest data for the data platform using Apache NiFi</li>
-            <li>Added new features to the web client and API using Angular and Java Spring Boot</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Junior Software Engineer, Certara UK Limited <br>
-            ( Jun 2020 – Jun 2021 )</h5>
-          <ul>
-            <li>Involved in full software development life cycle including design, validation, testing, building CI/CD pipelines and full customer support</li>
-            <li>Worked on projects to improve the main product’s performance</li>
-            <ul>
-              <li>Used lazy loading to reduce the software’s start-up time by 10%</li>
-              <li>Built code generation tool to replace the Fody package which changed 310+ files</li>
-            </ul>
-            <li>Gained experience in WPF applications development using the MVVM pattern, C#, .NET 5, Visual Studio and Azure DevOps Server</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Web Developer, NotiFacts <br>
-            ( Aug 2020 – Jan 2021 )</h5>
-          <ul>
-            <li>Involve in the front-end development of the website using Bootstrap and HTML5 and back-end development using Python Flask</li>
-          </ul>
-        </div>
-      </div>  
-    </div>
-
-    <hr class="slideanim">
-
-    <h3 class="slideanim">Computer Science related Activities </h3>
-    <div class="timeline-frame slideanim">
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Lab Demonstrator<br>
-            ( Sep 2021 - May 2022 )</h5>
-          <ul>
-            <li>Lab Demonstrator for two different level 1 modules - Java Programming & Introduction to Programming and Problem Solving </li>
-            <li>Help to address students' questions with different coding exercises in Python and Java during lab sessions</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Software Engineering Virtual Internship, JPMorgan Chase & Co <br>
-            ( Apr 2020 )</h5>
-          <ul>
-            <li>Had the opportunity to explore life as a software engineer in Fintech</li>
-            <li>Worked on financial analysis and data visualisation tasks using React, Typescript and Python</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Second Place Winner, <a href="http://hackmed.uk/" target="_blank">HackMed</a> ( Mar 2020 )</h5>
-          <ul>
-            <li>Worked in a team of four to develop a website to help people suffering speech impairment using the Emotiv wearable EEG and the pepper robot </li>
-            <li>Made use of React, Bootstrap, Flask and Jinja2 to build the website</li>
-            <li><a href="https://devpost.com/software/verbal-seasoning" target="_blank"><code>Project Devpost Link</code></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5><a href="https://new.siemens.com/uk/en/company/fairs-events/mindsphere-live.html" target="_blank">Sir William Siemens Challenge</a> ( Nov 2019 )</h5>
-          <ul>
-            <li>Built a lift system with a physical model and a virtual model on website to display the provided data in 48 hours with six students from different engineering disciplines</li>
-            <li>Responsible for data manipulation that developed the attention to details</li>
-            <li><a href="https://github.com/jhuddlestone1/swsc-sirius" target="_blank"><code>Project GitHub Link</code></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Student Mentor for a Python Course,<br>
-            Code Creators Sheffield  ( Oct 2019 - Jun 2020 )</h5>
-          <ul class="short-url">
-            <li>Helped to address students’ questions in Python</li>
-            <li>Developed skills in explaining technical concepts and delivering educational materials to laypeople in a simple and logical manner</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="timeline-section slideanim">
-        <div class="timeline-content" >
-          <h5>Python for Web Development Course, Code First: Girls ( Feb 2019 - Apr 2019 )</h5>
-          <ul>
-            <li>An 8-weeks long course about backend development using Python and Flask </li>
-            <li>Experience in using GitHub and Heroku </li>
-            <li>Delivered multiple projects like a simple translator in a web app form through Python, Flask, Jinja2, Web APIs and HTML etc</li>
-          </ul>
-        </div>
-      </div>
-      
-    </div>
-
-    <hr class="slideanim">
-
-    <h3 class="slideanim">Leadership Roles at University</h3>
-    <div class="timeline-frame slideanim">
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5><a href="https://ieasheffield.wordpress.com/2020/02/09/meet-our-international-engineering-ambassador-wing-yin-kwok/" target="_blank">International Engineering Ambassador</a>,<br> University of Sheffield
-            ( Nov 2019 - Present )</h5>
-          <ul>
-            <li>Responsible for representing the Faculty of Engineering to promote the University to prospective students and answering their enquiries in a professional manner</li>
-            <li>Developed skills in communicating with people from different background</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Treasurer, Sheffield Women in Computer Science Society ( Apr 2019 - Apr 2020 )</h5>
-          <ul>
-            <li>Work with companies in the IT industry like Arm Ltd to promote the role of women within the industry</li>
-            <li>Took up the responsibility to manage and monitor the financial account of the society</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Academic Representative ( Sep 2019 - Jun 2020 )</h5>
-          <ul>
-            <li>Worked alongside the University and Students’ Union to improve students’ education</li>
-            <li>Developed skills in collecting and presenting information better, communicating with people from different backgrounds</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-section slideanim">
-        <div class="timeline-content">
-          <h5>Student Mentor for first-year students<br>
-            ( Sep 2019 - Jun 2020 )</h5>
-          <ul>
-            <li>Provided mentees with advice and support</li>
-            <li>Developed skills in interacting with newcomers in order to comfort and help them to get adapted to the new environment</li>
-          </ul>
-        </div>
-      </div>
-      
-    </div>
-
-    <hr class="slideanim">
-    <br>
-    <h3 class="slideanim">Personal Project</h3>
+    <h3 class="slideanim colour-pastel-blue">Personal Project</h3>
     <div class="slideanim">
       <div class="slideanim ">
-        <h5>Bank Statement Analysis Application</h5>
+        <h5 class="colour-pastel-blue2">Bank Statement Analysis Application</h5>
         <ul>
-          <li>Built an application that analyses users’ bank statement and displays the result through a web interface</li>
+          <li>Built an application that analyses users’ bank statement and displays the result through a web interface
+          </li>
           <li>Built using Python, MySQL, Flask, Jinja2, Bootstrap, Web APIs and HTML5</li>
-          <li><a href="https://github.com/Hayley-Kwok/bank-statement-analysis" target="_blank"><code>Project GitHub Link</code></a></li>
+          <li><a href="https://github.com/Hayley-Kwok/bank-statement-analysis"
+              target="_blank"><code>Project GitHub Link</code></a></li>
         </ul>
       </div>
 
@@ -287,203 +355,138 @@
     <br>
     <hr class="slideanim">
 
-    <h3 class="slideanim">University Projects</h3>
+    <h3 class="slideanim colour-pastel-purple">Key University Projects</h3>
     <div class="slideanim">
       <div class="slideanim row">
         <div class="col-md-6">
-          <h5>Bombe Simulator (Individual Project)  -  Autumn 2019</h5>
+          <h5 class="colour-pastel-purple2">Bombe Simulator (Individual Project) - Autumn 2019</h5>
           <ul>
-            <li>Made use of Haskell and functional programming design pattern to build a Bombe simulator to break the Enigma-machine-encrypted messages</li>
-            <li><a href="https://github.com/Hayley-Kwok/Bombe-Simulator" target="_blank"><code>Project GitHub Link</code></a></li>
+            <li>Made use of Haskell and functional programming design pattern to build a Bombe simulator to break the
+              Enigma-machine-encrypted messages</li>
+            <li><a href="https://github.com/Hayley-Kwok/Bombe-Simulator"
+                target="_blank"><code>Project GitHub Link</code></a></li>
           </ul>
         </div>
 
         <div class="col-md-6">
-          <h5>Software Hut (Group Web Project)  -  Spring 2020</h5>
+          <h5 class="colour-pastel-purple2">Software Hut (Group Web Project) - Spring 2020</h5>
           <ul>
-            <li>Worked with three Computer Science students to build a website in agile with the use of Ruby on Rails and MVC pattern from design to deployment and testing for the School of Health and Related Research to replace the current ACCESS database for the clinical trials support management</li>
+            <li>Worked with three Computer Science students to build a website in agile with the use of Ruby on Rails
+              and MVC pattern from design to deployment and testing for the School of Health and Related Research to
+              replace the current ACCESS database for the clinical trials support management</li>
           </ul>
         </div>
       </div>
 
       <div class="slideanim row">
         <div class="col-md-6">
-          <h5>OCR Project  -  Autumn 2019</h5>
+          <h5 class="colour-pastel-purple2">OCR Project - Autumn 2019</h5>
           <ul>
-            <li>Built an optical character recognition system that can process scanned book pages and turned them into text using Python and Python packages like NumPy and SciPy (without using the scikit-learn module)</li>
-            <li>Focused on the training process of a classifier for the content of the bounding box of each character (i.e. mapping a set of pixel values onto a character code)</li>
+            <li>Built an optical character recognition system that can process scanned book pages and turned them into
+              text using Python and Python packages like NumPy and SciPy (without using the scikit-learn module)</li>
+            <li>Focused on the training process of a classifier for the content of the bounding box of each character
+              (i.e. mapping a set of pixel values onto a character code)</li>
             <li>The training process consisted of three stages
               <ol>
                 <li>Dimensionality reduction (Feature Extraction)
-                  <ul><li>In this stage, I made use of Principal component analysis (PCA) to reduce 900 pixels to 10 pixels</li></ul>
+                  <ul>
+                    <li>In this stage, I made use of Principal component analysis (PCA) to reduce 900 pixels to 10
+                      pixels</li>
+                  </ul>
                 </li>
                 <li>Classifier Training
-                  <ul><li>In this stage, I trained the nearest neighbour classifier to classify different characters and punctations</li></ul>
+                  <ul>
+                    <li>In this stage, I trained the nearest neighbour classifier to classify different characters and
+                      punctations</li>
+                  </ul>
                 </li>
                 <li>Error Correction
-                  <ul><li>In this stage, I built a program to apply error correction to the result by using the fact that the sequences of characters must form valid words</li></ul>
+                  <ul>
+                    <li>In this stage, I built a program to apply error correction to the result by using the fact
+                      that the sequences of characters must form valid words</li>
+                  </ul>
                 </li>
               </ol>
             </li>
           </ul>
         </div>
-
-        <div class="col-md-6">
-          <h5>Group Web Project  -  Spring 2019</h5>
-          <ul>
-            <li>Worked with six Computer Science students to build a website from design to delivery including detailed analysis on different requirements and its complexity for implementation as well as maintenance</li>
-            <li>Made use of Ruby, Sinatra, SQLite, Bootstrap, CSS and HTML5 to build the website and MiniTest as well as Cucumber to test the website </li>
-            <li>Developed skills in prioritising tasks and dividing a large project into small sections for teamwork</li>
-          </ul>
-        </div>
-      </div>
-      <div class="slideanim row">
-        <div class="col-md-6">
-          <h5><a href="https://sites.google.com/sheffield.ac.uk/eyh2020/projects/11-internet-of-things?authuser=0" target="_blank">Engineering You're Hired - Internet of Things: Smart Rural Roads</a>  -  Feb 2020</h5>
-          <ul>
-            <li>Worked with five students from different engineering disciplines for one week </li>
-            <li>Investigated into different possibilities in designing a smart road in rural road using Internet of Things technology and presented the ideas in various ways like board room, PowerPoint and poster presentations </li>
-          </ul>
-        </div>
-
-        <div class="col-md-6">
-          <h5>Global Engineering Challenge - Apps for integrating transport and payment  -  Jan 2019</h5>
-          <ul>
-            <li>Worked with students from different engineering disciplines</li>
-            <li>Developed an intact project plan from design and research to implementation plan for a real-life issue, to integrate transportation methods and allow users to pay using their smartphones in Tamil Nadu </li>
-          </ul>
-        </div>
       </div>
     </div>
-    
-    
-  </div> <!--container-->
-</div>
-<!-- Skills -->
-<div id="skills" class="container">
-  <h2 class="text-center colour-red slideanim">SKILLS</h2>
-  <hr class="slideanim">
-  <h3 class="colour-greenh3 slideanim">Technical Skills </h3>
-  <div class="row slideanim">
-    <div class="col-md-6">
-      <h5 class="colour-purple">Website Development (Front End)</h5>
-      <span class="ability-title">HTML5 & CSS</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i></span> 
-      <span class="ability-title">Boostrap</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i></span> 
-      <span class="ability-title">JavaScript</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">TypeScript</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">Angular</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk "></i> <i class="glyphicon glyphicon-asterisk "></i></span> 
-      <span class="ability-title">React</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk colour-purple"></i> <i class="glyphicon glyphicon-asterisk "></i> <i class="glyphicon glyphicon-asterisk "></i></span> 
-      <h5 class="colour-blue">Website Development (Back End)</h5>
-      <span class="ability-title">.NET Blazor (C#)</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i></span>
-      <span class="ability-title">Spring Boot (Kotlin & Java)</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">Flask & Jinja2 (Python)</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">Ruby on Rails</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk colour-blue"></i> <i class="glyphicon glyphicon-asterisk"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <h5 class="colour-green2">Desktop Application Development</h5>
-      <span class="ability-title">.NET WPF</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i></span>
-      <span class="ability-title">Electron</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk colour-green2"></i> <i class="glyphicon glyphicon-asterisk "></i> <i class="glyphicon glyphicon-asterisk "></i></span> 
-      <h5 class="colour-orange">Softwares</h5>
-      <span class="ability-title">MS Office</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i></span> 
-      <span class="ability-title">Git</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i> <i class="glyphicon glyphicon-asterisk colour-orange"></i></span>
-    </div>
+  </div>
 
-    <div class="col-md-6">
-      <h5 class="colour-green">Programming Languages</h5>
-      <span class="ability-title">C#</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i></span>
-      <span class="ability-title">Python</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i></span> 
-      <span class="ability-title">Java</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk"></i></span> 
-      <span class="ability-title">Kotlin</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk"></i></span> 
-      <span class="ability-title">Haskell</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk colour-green"></i> <i class="glyphicon glyphicon-asterisk"></i> <i class="glyphicon glyphicon-asterisk"></i></span> 
-       
-      <h5 class="colour-pink">Technical Knowledge</h5>
-      <span class="ability-title">Software Lifecycle Knowledge</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i></span>
-      <span class="ability-title">OOP Paradigms</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i></span>
-      <span class="ability-title">Agile Methodologies</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i></span>
-      <span class="ability-title">Scrum Methodologies</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">MVVM Pattern</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">MVC Pattern</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
-      <span class="ability-title">Algorithm Design</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i></span> 
-      <span class="ability-title">Data Structure</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i></span>  
-      <span class="ability-title">UML Diagrams</span> <span class="ability-grade"><i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk colour-pink"></i> <i class="glyphicon glyphicon-asterisk"></i> <i class="glyphicon glyphicon-asterisk"></i></span>
+  <div id="contact" class="bg-1 text-center">
+    <div class="container">
+      <h2 class="text-center ">Contact</h2>
+      <hr>
+      <div class="footer-icon">
+        <p>
+          <a href="https://www.linkedin.com/in/hayley-wing-yin-kwok/" target="_blank" title="LinkedIn"><span
+              class="fab fa-linkedin icon"></span></a>
+          <a href="https://github.com/Hayley-Kwok" target="_blank" title="GitHub"><span
+              class="fa fa-github icon"></span></a>
+          <a href="mailto:wingk1226@gmail.com" target="_blank" title="Email"><span
+              class="far fa-envelope icon"></span></a>
+        </p>
+      </div>
+      <button type="button" class="btn btn-default">
+        <a href="static/hayleywingyinkwok_cv.pdf" target="_blank" title="Download CV">Download CV</a>
+      </button>
+      <br>
+      <br>
+      <br>
+      <p>Made with HTML5 & Bootstrap & <a href="https://github.com/mattboldt/typed.js/"><u>typed.js</u></a> & JQuery <br>
+        Last Update: Apr 2023</p>
     </div>
   </div>
-  <hr class="slideanim">
-  <h3 class="colour-blue3 slideanim">Languages</h3>
-  <div class="row slideanim">
-    <div class="col-md-4">
-      <p>Cantonese (Native)</p>
-    </div>
-    <div class="col-md-4">
-      <p>English (Proficient)</p>
-    </div>
-    <div class="col-md-4">
-      <p>Mandarin (Proficient)</p>
-    </div>
-  </div>
-</div>
+  <footer class="text-center"> <a class="up-arrow" href="#hi" data-toggle="tooltip" title="TO TOP"> <span
+        class="glyphicon glyphicon-chevron-up"></span> </a> </footer>
+  <script>
+    //slide animation
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
 
-<div id="contact" class="bg-1 text-center">
-  <div class="container">
-    <h2 class="text-center ">Contact</h2>
-    <hr>
-    <div class="footer-icon">
-      <p> 
-        <a href="https://www.linkedin.com/in/hayley-wing-yin-kwok/" target="_blank" title="LinkedIn"><span class="fab fa-linkedin icon"></span></a> 
-        <a href="https://github.com/Hayley-Kwok" target="_blank" title="GitHub"><span class="fa fa-github icon"></span></a> 
-        <a href="mailto:wingk1226@gmail.com" target="_blank" title="Email"><span class="far fa-envelope icon"></span></a> 
-      </p>
-    </div>
-    <button type="button" class="btn btn-default">
-    <a href="static/hayleywingyinkwok_cv.pdf" target="_blank" title="Download CV">Download CV</a>
-    </button>
-  </div>
-</div>
-<footer class="text-center"> <a class="up-arrow" href="#hi" data-toggle="tooltip" title="TO TOP"> <span class="glyphicon glyphicon-chevron-up"></span> </a> </footer>
-<script>
-  //slide animation
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
+      $(".navbar a, footer a[href='#hi']").on('click', function (event) {
 
-    $(".navbar a, footer a[href='#hi']").on('click', function(event) {
+        if (this.hash !== "") {
 
-      if (this.hash !== "") {
+          event.preventDefault();
 
-        event.preventDefault();
+          var hash = this.hash;
 
-        var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
 
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 900, function(){
-
-          window.location.hash = hash;
-        });
-      }
-    });
-
-    $(window).scroll(function() {
-      $(".slideanim").each(function(){
-        var pos = $(this).offset().top;
-
-        var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
+            window.location.hash = hash;
+          });
         }
       });
+
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+
+    })
+
+    //typing on the top canvas using typed.js
+    var typed = new Typed('#typed', {
+      strings: ["Hi I'm Hayley Wing Yin Kwok"],
+      typeSpeed: 90,
+      startDelay: 500,
+      backDelay: 5000,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: false
     });
 
-  })
-
-//typing on the top canvas using type.js
-var typed = new Typed('#typed', {
-  strings: ["Hi I'm Hayley Wing Yin Kwok"],
-  typeSpeed: 90,
-  startDelay: 500,
-  backDelay: 5000,
-  loop: true,
-  loopCount: Infinity,
-  showCursor: false
-  });
-
-</script>
+  </script>
 </body>
+
 </html>
